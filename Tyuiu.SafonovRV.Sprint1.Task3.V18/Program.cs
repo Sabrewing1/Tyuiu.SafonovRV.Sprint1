@@ -25,9 +25,9 @@ namespace Tyuiu.SafonovRV.Sprint1.Task3.V18
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double a = 4;
-            double b = 2;
-            double c = 4;
+            double a = 9;
+            double b = 9;
+            double c = 3;
              
             Console.WriteLine("Сторона A прямоугольника = " + a);
             Console.WriteLine("Сторона B прямоугольника = " + b);
