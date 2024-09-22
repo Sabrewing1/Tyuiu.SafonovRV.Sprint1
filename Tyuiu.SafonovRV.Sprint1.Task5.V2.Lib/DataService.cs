@@ -12,7 +12,7 @@ namespace Tyuiu.SafonovRV.Sprint1.Task5.V2.Lib
             double c = 9;
 
 
-            return (int) (0.555556*(temp - b));
+            return (int) ((5*Math.Pow(9, -1)) * (temp - b));
         }
     }
 }
