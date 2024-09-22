@@ -9,10 +9,10 @@ namespace Tyuiu.SafonovRV.Sprint1.Task3.V18.Test
         public void ValidExpression()
         {
          DataService ds = new DataService();
-            double a = 9;
-            double b = 9;
+            double a = 3;
+            double b = 3;
             double c = 3;
-            double wait = 243;
+            double wait = 9;
             var res = ds.HowManySquares(a,b,c);
             Assert.AreEqual(wait,res);
         }

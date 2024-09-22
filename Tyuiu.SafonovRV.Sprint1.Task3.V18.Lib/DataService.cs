@@ -6,6 +6,6 @@ public class DataService : ISprint1Task3V18
 {
     public double HowManySquares(double a, double b, double c)
     {
-        return(a*b*c);
+        return(a+b+c);
     }
 }
