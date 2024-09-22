@@ -25,19 +25,24 @@ namespace Tyuiu.SafonovRV.Sprint1.Task3.V18
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double a = 3;
-            double b = 3;
-            double c = 3;
-             
-            Console.WriteLine("Сторона A прямоугольника = " + a);
-            Console.WriteLine("Сторона B прямоугольника = " + b);
-            Console.WriteLine("Сторона C прямоугольника = " + c);
+            double a = 0;
+            double b = 0;
+            double c = 0;
+
+
+
+            Console.WriteLine("Введите значение стороны прямоугольника A:");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите значение стороны прямоугольника B:");
+            b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите значение стороны квадрата С:");
+            c = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(" Площадь прямоугольника  = " + ds.HowManySquares(a,b,c));
+            Console.WriteLine(" Количество квадратов  = " + ds.HowManySquares(a,b,c));
 
 
             Console.ReadLine();
