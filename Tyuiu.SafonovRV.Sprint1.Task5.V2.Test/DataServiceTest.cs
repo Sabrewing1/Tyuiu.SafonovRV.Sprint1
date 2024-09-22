@@ -8,10 +8,10 @@ namespace Tyuiu.SafonovRV.Sprint1.Task5.V2.Test
         [TestMethod]
         public void ValidExpression()
         {
-            double temp = 70;
+            double temp = 5;
             DataService ds = new DataService();
             double   res  = ds.FahrenheitTo—elsius(temp);
-            Assert.AreEqual(4, res);
+            Assert.AreEqual(-6, res);
             {
             }
         }

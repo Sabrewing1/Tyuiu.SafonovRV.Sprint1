@@ -12,7 +12,7 @@ namespace Tyuiu.SafonovRV.Sprint1.Task5.V2.Lib
             double c = 9;
 
 
-            return (int) Math.Round(c/(a * ( temp - b) ) * 100,2);
+            return (int) Math.Round(c/(a * ( temp - b) ) );
         }
     }
 }
