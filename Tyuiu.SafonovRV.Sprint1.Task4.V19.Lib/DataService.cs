@@ -6,7 +6,7 @@ namespace Tyuiu.SafonovRV.Sprint1.Task4.V19.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = (5+4)/Math.Abs(5-2);
+            var res = (x+y)/(Math.Abs(x-2));
             return res;
         }
     }
