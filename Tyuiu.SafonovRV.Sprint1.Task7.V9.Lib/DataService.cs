@@ -7,7 +7,7 @@ namespace Tyuiu.SafonovRV.Sprint1.Task7.V9.Lib
         public double Calculate(double x, double y)
         {
             double z = 0;
-            double e = Math.Pow(2.7, x);
+            double e = Math.Pow(2.71828, x);
             z = Math.Round(e - (Math.Pow(y, 2) + (Math.Pow (Math.Cos(x),3)) + ((12*x*y) - 3*Math.Pow(x,2))) / (Math.Cos(Math.Pow(x, 3) + 3) + 18*y - 1),3);
             return z;
         }
